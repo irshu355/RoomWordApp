@@ -1,14 +1,16 @@
 package com.github.irshulx.roomwordapp.room
 
+import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
-interface BLogDAO {
+@Dao
+interface BlogDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertBlog(blogEntity: BlogCacheEntity): Long
 
-    @Query("select * from blogs")
+    @Query("SELECT * FROM blogs")
     suspend fun getBlogs():List<BlogCacheEntity>
 }
