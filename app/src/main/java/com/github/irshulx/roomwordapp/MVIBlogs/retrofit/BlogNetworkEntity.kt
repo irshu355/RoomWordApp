@@ -1,4 +1,4 @@
-package com.github.irshulx.roomwordapp.retrofit
+package com.github.irshulx.roomwordapp.MVIBlogs.retrofit
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

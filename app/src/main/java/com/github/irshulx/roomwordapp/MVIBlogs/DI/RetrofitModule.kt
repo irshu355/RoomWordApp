@@ -1,10 +1,6 @@
-package com.github.irshulx.roomwordapp.DI
+package com.github.irshulx.roomwordapp.MVIBlogs.DI
 
-import com.github.irshulx.roomwordapp.model.Blog
-import com.github.irshulx.roomwordapp.retrofit.BlogNetworkEntity
-import com.github.irshulx.roomwordapp.retrofit.BlogRetrofit
-import com.github.irshulx.roomwordapp.retrofit.NetworkMapper
-import com.github.irshulx.roomwordapp.utils.EntityMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.retrofit.BlogRetrofit
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module

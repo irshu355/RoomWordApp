@@ -1,9 +1,9 @@
-package com.github.irshulx.roomwordapp.DI
+package com.github.irshulx.roomwordapp.MVIBlogs.DI
 
 import android.content.Context
 import androidx.room.Room
-import com.github.irshulx.roomwordapp.room.BlogDAO
-import com.github.irshulx.roomwordapp.room.BlogDatabase
+import com.github.irshulx.roomwordapp.MVIBlogs.room.BlogDAO
+import com.github.irshulx.roomwordapp.MVIBlogs.room.BlogDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

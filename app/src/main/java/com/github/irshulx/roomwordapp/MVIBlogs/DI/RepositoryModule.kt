@@ -1,10 +1,10 @@
-package com.github.irshulx.roomwordapp.DI
+package com.github.irshulx.roomwordapp.MVIBlogs.DI
 
-import com.github.irshulx.roomwordapp.repository.MainRepository
-import com.github.irshulx.roomwordapp.retrofit.BlogRetrofit
-import com.github.irshulx.roomwordapp.retrofit.NetworkMapper
-import com.github.irshulx.roomwordapp.room.BlogDAO
-import com.github.irshulx.roomwordapp.room.CacheMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.repository.MainRepository
+import com.github.irshulx.roomwordapp.MVIBlogs.retrofit.BlogRetrofit
+import com.github.irshulx.roomwordapp.MVIBlogs.retrofit.NetworkMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.room.BlogDAO
+import com.github.irshulx.roomwordapp.MVIBlogs.room.CacheMapper
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.github.irshulx.roomwordapp.retrofit
+package com.github.irshulx.roomwordapp.MVIBlogs.retrofit
 
 import retrofit2.http.GET
 

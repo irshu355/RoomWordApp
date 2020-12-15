@@ -1,4 +1,4 @@
-package com.github.irshulx.roomwordapp.room
+package com.github.irshulx.roomwordapp.MVIBlogs.room
 
 import androidx.room.Dao
 import androidx.room.Insert

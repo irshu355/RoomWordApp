@@ -1,11 +1,11 @@
-package com.github.irshulx.roomwordapp.repository
+package com.github.irshulx.roomwordapp.MVIBlogs.repository
 
-import com.github.irshulx.roomwordapp.model.Blog
-import com.github.irshulx.roomwordapp.retrofit.BlogRetrofit
-import com.github.irshulx.roomwordapp.retrofit.NetworkMapper
-import com.github.irshulx.roomwordapp.room.BlogDAO
-import com.github.irshulx.roomwordapp.room.CacheMapper
-import com.github.irshulx.roomwordapp.utils.DataState
+import com.github.irshulx.roomwordapp.MVIBlogs.model.Blog
+import com.github.irshulx.roomwordapp.MVIBlogs.retrofit.BlogRetrofit
+import com.github.irshulx.roomwordapp.MVIBlogs.retrofit.NetworkMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.room.BlogDAO
+import com.github.irshulx.roomwordapp.MVIBlogs.room.CacheMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.utils.DataState
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

@@ -1,7 +1,6 @@
-package com.github.irshulx.roomwordapp.ui
+package com.github.irshulx.roomwordapp.MVIBlogs.ui
 
 import android.os.Bundle
-import android.os.Message
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -12,8 +11,8 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import com.github.irshulx.roomwordapp.R
-import com.github.irshulx.roomwordapp.model.Blog
-import com.github.irshulx.roomwordapp.utils.DataState
+import com.github.irshulx.roomwordapp.MVIBlogs.model.Blog
+import com.github.irshulx.roomwordapp.MVIBlogs.utils.DataState
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.content_main.*
 import java.lang.StringBuilder
@@ -57,8 +56,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayError(message: String?) {
-        if(message != null) {
-            Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+        message?.let {
+            Toast.makeText(this, it, Toast.LENGTH_LONG).show()
         }
     }
 

@@ -1,8 +1,7 @@
-package com.github.irshulx.roomwordapp.room
+package com.github.irshulx.roomwordapp.MVIBlogs.room
 
-import com.github.irshulx.roomwordapp.model.Blog
-import com.github.irshulx.roomwordapp.retrofit.BlogNetworkEntity
-import com.github.irshulx.roomwordapp.utils.EntityMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.model.Blog
+import com.github.irshulx.roomwordapp.MVIBlogs.utils.EntityMapper
 import javax.inject.Inject
 
 class CacheMapper @Inject constructor(): EntityMapper<BlogCacheEntity, Blog> {

@@ -1,7 +1,7 @@
-package com.github.irshulx.roomwordapp.retrofit
+package com.github.irshulx.roomwordapp.MVIBlogs.retrofit
 
-import com.github.irshulx.roomwordapp.model.Blog
-import com.github.irshulx.roomwordapp.utils.EntityMapper
+import com.github.irshulx.roomwordapp.MVIBlogs.model.Blog
+import com.github.irshulx.roomwordapp.MVIBlogs.utils.EntityMapper
 import javax.inject.Inject
 
 class NetworkMapper @Inject constructor(): EntityMapper<BlogNetworkEntity, Blog> {

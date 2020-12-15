@@ -1,4 +1,4 @@
-package com.github.irshulx.roomwordapp.utils
+package com.github.irshulx.roomwordapp.MVIBlogs.utils
 
 interface EntityMapper<Entity,DomainModel> {
 

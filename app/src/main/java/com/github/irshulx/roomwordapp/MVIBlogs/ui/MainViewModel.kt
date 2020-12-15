@@ -1,11 +1,11 @@
-package com.github.irshulx.roomwordapp.ui
+package com.github.irshulx.roomwordapp.MVIBlogs.ui
 
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
-import com.github.irshulx.roomwordapp.model.Blog
-import com.github.irshulx.roomwordapp.repository.MainRepository
-import com.github.irshulx.roomwordapp.utils.DataState
+import com.github.irshulx.roomwordapp.MVIBlogs.model.Blog
+import com.github.irshulx.roomwordapp.MVIBlogs.repository.MainRepository
+import com.github.irshulx.roomwordapp.MVIBlogs.utils.DataState
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
