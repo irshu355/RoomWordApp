@@ -28,7 +28,7 @@ object SingletonPracticeRepository {
         }
     }
 
-    fun cancelJobs(job:Job?) {
+    fun cancelJobs() {
         job?.cancel()
     }
 }

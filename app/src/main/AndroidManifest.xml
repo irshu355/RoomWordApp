@@ -12,7 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomWordApp">
-        <activity android:name=".SingletonPractice.models.SingletonActivity">
+        <activity android:name=".Coroutines.CoroutinesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SingletonPractice.SingletonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,9 +29,7 @@
         <activity
             android:name=".MVIBlogs.ui.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.RoomWordApp.NoActionBar">
-        </activity>
-
+            android:theme="@style/Theme.RoomWordApp.NoActionBar"></activity>
     </application>
 
 </manifest>
